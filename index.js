@@ -94,7 +94,7 @@ async function checkBirthdays() {
         try {
           const numberId = await client.getNumberId(phone);
           if (!numberId) { console.log(`No encontrado: ${phone}`); continue; }
-          await client.sendMessage(numberId._serialized, `Feliz cumpleanos ${name}! Que tengas un dia increible`);
+          await client.sendMessage(numberId._serialized, `Happy Birthday ${name}! René Santamaría - English Teacher`);
           console.log(`Mensaje enviado a ${name}!`);
         } catch (e) {
           console.log(`Error enviando a ${name}: ${e.message}`);
