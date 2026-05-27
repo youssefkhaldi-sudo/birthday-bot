@@ -1,0 +1,8 @@
+node_modules/
+.wwebjs_auth/
+.wwebjs_cache/
+contacts.json
+credentials.json
+token.json
+bot.log
+bot-error.log
